@@ -9,6 +9,7 @@ How to install:
 
 Example of use:
 
+```plsql
 DECLARE
 
     L LAMBDA := LAMBDA('BEGIN :R := :A + :B; END;',
@@ -19,3 +20,4 @@ BEGIN
 	
     L.CLOSE;
 END;
+```
